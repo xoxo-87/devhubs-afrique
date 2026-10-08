@@ -67,12 +67,5 @@ Suivez ces étapes pour lancer le projet sur votre machine :
 *   **Date Limite de Soumission :** 25 Octobre 2026 à 23h59
 *   **Livrables :** Ce dépôt Git + Démo fonctionnelle en ligne.
 
----
-
-## 👥 L'Équipe
-
-Projet développé avec passion pour le concours par :
-* **Charbel Mahougnon** - *Lead Developer / Fullstack* ([@votre-github]https://github.com/xoxo-87))
-* *Ajoutez ici les membres de votre équipe si nécessaire...*
 
 
