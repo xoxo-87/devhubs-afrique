@@ -72,8 +72,7 @@ Suivez ces étapes pour lancer le projet sur votre machine :
 ## 👥 L'Équipe
 
 Projet développé avec passion pour le concours par :
-* **Charbel Mahougnon** - *Lead Developer / Fullstack* ([@votre-github](https://github.com))
+* **Charbel Mahougnon** - *Lead Developer / Fullstack* ([@votre-github]https://github.com/xoxo-87))
 * *Ajoutez ici les membres de votre équipe si nécessaire...*
 
----
-Conçu avec ❤️ pour la communauté tech africaine.
+
