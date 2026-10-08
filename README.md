@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌍 DevHubs Afrique
 
-## Getting Started
+> **La plateforme d'échange panafricaine, par les devs, pour les devs.**
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📌 Présentation du Projet
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**DevHubs Afrique** unifie l’écosystème tech fragmenté du continent. Conçue par et pour les devs, cette plateforme résout les défis de collaboration et de monétisation via trois piliers : le troc de compétences, une vitrine open-source locale et un marketplace de micro-services intégré au **Mobile Money**. Le hub ultime des talents africains.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Fonctionnalités Clés (MVP)
 
-## Learn More
+*   **🔄 Troc de Compétences :** Un système d'entraide basé sur l'échange de services techniques (ex: revue de code contre architecture cloud) pour s'affranchir des contraintes budgétaires.
+*   **📦 Vitrine Open-Source Panafricaine :** Un répertoire centralisé pour mettre en valeur et contribuer à des projets open-source pensés pour les réalités du continent (connectivité, solutions locales).
+*   **💳 Marketplace & Mobile Money :** Une passerelle de micro-services freelances avec une simulation d'intégration de paiements locaux (Wave, Orange Money, MTN, Moov) pour garantir l'inclusion financière.
+*   **🔐 Authentification Dev-Native :** Connexion sécurisée et obligatoire via **GitHub** pour valoriser le profil et la réputation des contributeurs.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Stack Technique
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+L'application a été bâtie avec des technologies modernes et performantes, optimisées pour un déploiement rapide et une expérience fluide :
 
-## Deploy on Vercel
+*   **Framework Frontend :** [Next.js 15](https://nextjs.org) (App Router, TypeScript)
+*   **Styles & UI :** [Tailwind CSS](https://tailwindcss.com) & [shadcn/ui](https://shadcn.com), HUGEICONS
+*   **Typographie :** Google Sans
+*   **Backend & Base de Données :** [Supabase](https://supabase.com) (PostgreSQL & Auth)
+*   **Hébergement & CI/CD :** [Vercel](https://vercel.com)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 💻 Installation et Démarrage Local
+
+Suivez ces étapes pour lancer le projet sur votre machine :
+
+1. **Cloner le dépôt :**
+   ```bash
+   git clone https://github.com
+   cd devhubs-afrique
+   ```
+
+2. **Installer les dépendances :**
+   ```bash
+   npm install
+   ```
+
+3. **Configurer les variables d'environnement :**
+   Créez un fichier `.env.local` à la racine et ajoutez vos clés Supabase :
+   ```env
+   NEXT_PUBLIC_SUPABASE_URL=votre_url_supabase
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=votre_cle_anon_supabase
+   ```
+
+4. **Lancer le serveur de développement :**
+   ```bash
+   npm run dev
+   ```
+   L'application est disponible sur [http://localhost:3000](http://localhost:3000).
+
+---
+
+## 📅 Calendrier du Hackathon (Édition 2026)
+
+*   **Début du Hackathon :** 29 Septembre 2026
+*   **Date Limite de Soumission :** 25 Octobre 2026 à 23h59
+*   **Livrables :** Ce dépôt Git + Démo fonctionnelle en ligne.
+
+---
+
+## 👥 L'Équipe
+
+Projet développé avec passion pour le concours par :
+* **Charbel Mahougnon** - *Lead Developer / Fullstack* ([@votre-github](https://github.com))
+* *Ajoutez ici les membres de votre équipe si nécessaire...*
+
+---
+Conçu avec ❤️ pour la communauté tech africaine.
